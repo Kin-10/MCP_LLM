@@ -1,0 +1,27 @@
+{
+    "mcpServers": {
+      "filesystem": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/janetjiang/Desktop/agi_code/MCPPreview/nangeAGICode/search_mysql_filesystem_chat"]
+      },
+      "mysql_mcp_server": {
+        "command": "python",
+        "args": ["mcp_server_mysql.py"],
+        "env": null
+      },
+      "duckduckgo_mcp_server": {
+        "command": "python",
+        "args": ["mcp_server_duckduckgo.py"],
+        "env": null
+      },
+      "fetch": {
+        "command": "python",
+        "args": ["mcp_server_fetch.py"],
+        "env": null
+      }
+    }
+  }
+  
+  
+  
+  
